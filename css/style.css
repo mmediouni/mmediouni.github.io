@@ -1,0 +1,274 @@
+/* #test{
+    background-color: aquamarine;
+    padding: 2rem 0;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+#test img{
+    display: block;
+    width: 100%;
+} */
+html {
+    font-size: 62.5%;
+  }
+
+h1::before , h2::before , h3::before , h4::before ,h1::after , h2::after , h3::after , h4::after {
+    font-family: FontAwesome;
+    content: "\002605";
+    color: #950000;
+    
+}
+
+h1 , h2 , h3, h4 , h5 {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    
+
+    
+}
+h1{
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+body{
+    margin: auto;
+    max-width: 1400px;
+    font-family: 'Athiti';
+    font-size: 1.6rem;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    background: rgb(161,161,161);
+    background: linear-gradient(0deg, rgba(161,161,161,0) 0%, rgba(235,226,219,1) 100%);
+    height: 180px;
+
+
+}
+header div{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 50px;
+    
+}
+header img{
+    width: 20%;
+    margin-left: 20px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;  
+    
+    align-items: center;
+    width: 60%;
+    margin-right: 50px;
+    
+      
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #EBE2DB;
+    /* border: 1px solid red; */
+    padding: 8px 8px;
+    height: fit-content;
+}
+
+header nav a:hover{
+    
+    color: white;
+    background-color: #4c4343;
+    /* border: 1px solid red; */
+    padding: 8px 8px;
+    height: fit-content;
+}
+
+#slider{
+    width: 90%;
+    margin: auto;
+}
+
+#welcome{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#welcome article img{
+    float: right;
+    width: 38%;
+    margin-left: 15px;
+}
+
+#welcome article img{
+    float: right;
+    width: 38%;
+    margin-left: 15px;
+}
+
+#special_menus{
+    display: flex;
+    flex-direction: column;
+}
+
+#les3articles{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ebe3db;
+    width: 30%;
+    padding-bottom: 30px;
+    
+    
+}
+
+.test figure img{
+    width: 100%;
+}
+
+.test figure figcaption p{
+    font-size: 5rem;
+}
+
+.menus_paragraphes p{
+    border-bottom: 1px dotted #4c4343;
+    padding-bottom: 5px;
+    font-size:1.5rem ;
+}
+
+
+.menus_paragraphes p::before{
+    font-family: FontAwesome;
+    content: "\002605";
+    color: #950000;
+    margin-left: 26px;
+}
+
+.a_button_seemore {
+    color: white;
+    background-color: #4c4343;
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    transition: 1s;
+}
+
+.a_button_seemore:hover {
+    color: white;
+    background-color: #950000;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/footer-bg.jpg");
+    color: white;
+    padding-bottom: 17px;
+}
+footer div article{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    justify-items: first baseline;
+}
+
+footer small a:link,  footer small a:visited{
+    color: white;
+    /* text-decoration: none; */
+}
+
+footer small a{
+    text-decoration: underline;
+    color:  white;
+    text-decoration: none;
+}
+
+footer small p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+small img{
+    margin-top: 20px;
+    width: 40px;
+}
+small{
+    background: #434544;
+    padding-top: 30px;
+    
+    text-align: center;
+    font-size: smaller;
+    width: 100%;
+    color: rgb(177, 177, 177);
+    padding-bottom: 30px;
+}
+
+#Social_Media {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Social_Media a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+h5{
+    display: block;
+    width: 100%;
+    border-bottom: 1px dashed white;
+    padding-bottom: 10px;
+}
+.infos p{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.infos{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    
+    
+}
